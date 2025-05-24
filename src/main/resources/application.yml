@@ -12,3 +12,8 @@ spring:
     show-sql: true
   profiles:
     active: dev
+
+shopecart:
+  app:
+    jwtSecret: shopecartSecretKey123456
+    jwtExpirationMs: 86400000  # 1 day in milliseconds
